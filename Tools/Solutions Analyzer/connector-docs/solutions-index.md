@@ -12,14 +12,14 @@ This reference documentation provides detailed information about data connectors
 
 ## Overview
 
-This documentation covers **477 solutions** with data connectors, providing access to **461 unique connectors** and **739 unique tables**.
+This documentation covers **478 solutions** with data connectors, providing access to **462 unique connectors** and **740 unique tables**.
 
 ### Quick Statistics
 
 | Metric | Count |
 |--------|-------|
-| Total Solutions | 477 |
-| Unique Connectors | 461 |\n| Unique Tables | 739 |\n\n## How This Documentation is Organized\n\nEach solution has its own page containing:
+| Total Solutions | 478 |
+| Unique Connectors | 462 |\n| Unique Tables | 740 |\n\n## How This Documentation is Organized\n\nEach solution has its own page containing:
 
 - **Solution Overview**: Publisher, support information, and categories
 - **Connectors**: List of all connectors in the solution
@@ -502,6 +502,7 @@ Browse solutions alphabetically:
 | [SIGNL4](solutions/signl4.md) | 2021-12-10 | Derdack |
 | [SINEC Security Guard](solutions/sinec-security-guard.md) | 2024-07-15 | Siemens AG |
 | [SOC Handbook](solutions/soc-handbook.md) | 2022-11-30 | Community |
+| [SOC Prime CCF](solutions/soc-prime-ccf.md) | 2025-09-25 | SOC Prime |
 | [SOC-Process-Framework](solutions/soc-process-framework.md) | 2022-04-08 | Microsoft Corporation |
 | [SailPointIdentityNow](solutions/sailpointidentitynow.md) | 2021-10-26 | SailPoint |
 | [SalemCyber](solutions/salemcyber.md) | 2023-07-21 | Salem Cyber |

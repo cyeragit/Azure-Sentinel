@@ -12,7 +12,7 @@ Browse all tables ingested by Microsoft Sentinel data connectors.
 
 ## Overview
 
-This page lists **739 unique tables** ingested by connectors.
+This page lists **740 unique tables** ingested by connectors.
 
 **Jump to:** [A](#a) | [B](#b) | [C](#c) | [D](#d) | [E](#e) | [F](#f) | [G](#g) | [H](#h) | [I](#i) | [J](#j) | [K](#k) | [L](#l) | [M](#m) | [N](#n) | [O](#o) | [P](#p) | [Q](#q) | [R](#r) | [S](#s) | [T](#t) | [U](#u) | [V](#v) | [W](#w) | [Z](#z)
 
@@ -302,11 +302,11 @@ This page lists **739 unique tables** ingested by connectors.
 | `CyberArk_AuditEvents_CL` | [CyberArkAudit](solutions/cyberarkaudit.md) | [CyberArkAudit](connectors/cyberarkaudit.md) |
 | `CyberSixgill_Alerts_CL` | [Cybersixgill-Actionable-Alerts](solutions/cybersixgill-actionable-alerts.md) | [Cybersixgill Actionable Alerts](connectors/cybersixgillactionablealerts.md) |
 | `CyberpionActionItems_CL` | [IONIX](solutions/ionix.md) | [IONIX Security Logs](connectors/cyberpionsecuritylogs.md) |
-| `CyeraAssets_CL` | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Azure Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
-| `CyeraAssets_MS_CL` | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Azure Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
-| `CyeraClassifications_CL` | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Azure Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
-| `CyeraIdentities_CL` | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Azure Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
-| `CyeraIssues_CL` | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Azure Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
+| `CyeraAssets_CL` | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Microsoft Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Microsoft Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
+| `CyeraAssets_MS_CL` | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Microsoft Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Microsoft Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
+| `CyeraClassifications_CL` | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Microsoft Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Microsoft Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
+| `CyeraIdentities_CL` | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Microsoft Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Microsoft Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
+| `CyeraIssues_CL` | [CyeraDSPM](solutions/cyeradspm.md) | [Cyera DSPM Microsoft Sentinel Data Connector](connectors/cyeradspmccf.md), [Cyera DSPM Azure Functions Microsoft Sentinel Data Connector](connectors/cyerafunctionsconnector.md) |
 | `CyfirmaASCertificatesAlerts_CL` | [Cyfirma Attack Surface](solutions/cyfirma-attack-surface.md) | [CYFIRMA Attack Surface](connectors/cyfirmaattacksurfacealertsconnector.md) |
 | `CyfirmaASCloudWeaknessAlerts_CL` | [Cyfirma Attack Surface](solutions/cyfirma-attack-surface.md) | [CYFIRMA Attack Surface](connectors/cyfirmaattacksurfacealertsconnector.md) |
 | `CyfirmaASConfigurationAlerts_CL` | [Cyfirma Attack Surface](solutions/cyfirma-attack-surface.md) | [CYFIRMA Attack Surface](connectors/cyfirmaattacksurfacealertsconnector.md) |
@@ -701,6 +701,7 @@ This page lists **739 unique tables** ingested by connectors.
 | `SAPLogServ_CL` | [SAP LogServ](solutions/sap-logserv.md) | [SAP LogServ (RISE), S/4HANA Cloud private edition](connectors/saplogserv.md) |
 | `SIGNL4_CL` | [SIGNL4](solutions/signl4.md) | [Derdack SIGNL4](connectors/derdacksignl4.md) |
 | `SINECSecurityGuard_CL` | [SINEC Security Guard](solutions/sinec-security-guard.md) | [SINEC Security Guard](connectors/ssg.md) |
+| `SOCPrimeAuditLogs_CL` | [SOC Prime CCF](solutions/soc-prime-ccf.md) | [SOC Prime Platform Audit Logs Data Connector](connectors/socprimeauditlogsdataconnector.md) |
 | `SailPointIDN_Events_CL` | [SailPointIdentityNow](solutions/sailpointidentitynow.md) | [SailPoint IdentityNow](connectors/sailpointidentitynow.md) |
 | `SailPointIDN_Triggers_CL` | [SailPointIdentityNow](solutions/sailpointidentitynow.md) | [SailPoint IdentityNow](connectors/sailpointidentitynow.md) |
 | `SalesforceServiceCloudV2_CL` | [Salesforce Service Cloud](solutions/salesforce-service-cloud.md) | [[DEPRECATED] Salesforce Service Cloud](connectors/salesforceservicecloud.md), [Salesforce Service Cloud (via Codeless Connector Framework)](connectors/salesforceservicecloudccpdefinition.md) |
