@@ -3,6 +3,8 @@
   "kind": "Customizable",
   "name": "CyeraDSPMCCF",
   "properties": {
+    "displayName": "Cyera DSPM Microsoft Sentinel Data Connector (CCF)",
+    "description": "Data connector definition for Cyera DSPM (CCF installation).",
     "connectorUiConfig": {
       "availability": {
         "isPreview": false,
@@ -36,7 +38,7 @@
           "name": "CyeraIdentities_CL"
         }
       ],
-      "descriptionMarkdown": "The [Cyera DSPM](https://api.cyera.io/) data connector allows you to connect to your Cyera's DSPM tenant and ingesting Classifications, Assets, Issues, and Identity Resources/Definitions into Microsoft Sentinel. The data connector is built on Microsoft Sentinel's Codeless Connector Framework and uses the Cyera's API to fetch Cyera's [DSPM Telemetry](https://www.cyera.com/) once received can be correlated with security events creating custom columns so that queries don't need to parse it again, thus resulting in better performance.",
+      "descriptionMarkdown": "The [Cyera DSPM](https://api.cyera.io/) data connector allows you to connect to your Cyera DSPM tenant and ingest Classifications, Assets, Issues, and Identity Resources/Definitions into Microsoft Sentinel. It is built on Microsoft Sentinel's Codeless Connector Framework and uses the Cyera API to fetch [DSPM Telemetry](https://www.cyera.com/). Once received, the data can be correlated with security events and used to create custom columns so that queries don't need to parse it again, resulting in better performance.",
       "graphQueries": [
         {
           "baseQuery": "CyeraClassifications_CL",
@@ -66,30 +68,30 @@
       ],
       "sampleQueries": [
                         {
-                            "description": "Get Sample of Cyera DSPM Classification Definitions",
+                            "description": "Get a sample of Cyera DSPM classification definitions",
                             "query": "CyeraClassifications_CL | take 10"
                         },
                         {
-                            "description": "Get Sample of Cyera DSPM Datastore Assets",
+                            "description": "Get a sample of Cyera DSPM datastore assets",
                             "query": "CyeraAssets_CL | take 10"
                         },
                         {
-                            "description": "Get Sample of Cyera DSPM Table Assets",
+                            "description": "Get a sample of Cyera DSPM table assets",
                             "query": "CyeraAssets_MS_CL | take 10"
                         },
                         {
-                            "description": "Get Sample of Cyera DSPM Issues Identified",
+                            "description": "Get a sample of Cyera DSPM issues identified",
                             "query": "CyeraIssues_CL | take 10"
                         },
                         {
-                            "description": "Get Sample of Cyera DSPM Identities",
+                            "description": "Get a sample of Cyera DSPM identities",
                             "query": "CyeraIdentities_CL | take 10"
                         }
                     ],
       "id": "CyeraDSPMCCF",
       "instructionSteps": [
         {
-          "description": "Connect to your Cyera DSPM tenenant via Personal Access Tokens",
+          "description": "Connect to your Cyera DSPM tenant via Personal Access Tokens",
           "instructions": [
             {
               "parameters": {
@@ -121,7 +123,7 @@
         }
       ],
       "isConnectivityCriteriasMatchSome": false,
-      "logo": "https://raw.githubusercontent.com/joshua-acklin-cyera/Azure-Sentinel/refs/heads/cyera-dspm/Logos/cyera_icon.svg",
+      "logo": "https://raw.githubusercontent.com/Azure/Azure-Sentinel/master/Logos/cyera_icon.svg",
       "resources": [
           {
           "type": "Microsoft.Insights/dataCollectionEndpoints",
@@ -373,9 +375,7 @@
       },
       "publisher": "Cyera Inc",
       "title": "Cyera DSPM Microsoft Sentinel Data Connector"
-    },
-    "createdTimeUtc": "2025-10-31T15:13:26.2481931Z",
-    "lastModifiedUtc": "2025-10-31T15:13:26.2481931Z"
+    }
   },
   "type": "Microsoft.SecurityInsights/dataConnectorDefinitions"
 }
